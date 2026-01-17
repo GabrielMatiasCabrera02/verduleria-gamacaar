@@ -1,0 +1,6 @@
+[
+  { "id": 1, "name": "Banana", "price": 1200, "unit": "kg" },
+  { "id": 2, "name": "Manzana", "price": 1500, "unit": "kg" },
+  { "id": 3, "name": "Papa", "price": 600, "unit": "kg" },
+  { "id": 4, "name": "Tomate", "price": 1300, "unit": "kg" }
+]
