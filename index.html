@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GAMACAAR Verdulería</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="container py-3">
+<header class="text-center mb-4">
+  <div class="logo-emoji mb-2">🍏</div>
+  <h1 class="h3">GAMACAAR Verdulería</h1>
+  <p class="tagline">Te ayudamos a cuidar tu salud</p>
+</header>
+<section class="info text-center mb-4">
+  <p>📍 <a href="https://www.google.com/maps?q=Av.+La+Plata+477,+Buenos+Aires" target="_blank" class="link-light">Av. La Plata 477</a></p>
+  <p>🕒 Lun a Sáb 8:00 a 20:00</p>
+</section>
+<section class="social-links text-center mb-4">
+  <a href="https://linktr.ee/ElOsoJudio" target="_blank" class="me-3 text-decoration-none link-light" title="Linktree ElOsoJudio"><i class="fa-solid fa-link"></i></a>
+  <a href="https://linktr.ee/GAMACAAR" target="_blank" class="me-3 text-decoration-none link-light" title="Linktree GAMACAAR"><i class="fa-solid fa-link"></i></a>
+  <a href="https://www.instagram.com/gamacaar/" target="_blank" class="me-3 text-decoration-none link-light" title="Instagram Mayra"><i class="fa-brands fa-instagram"></i></a>
+  <a href="https://www.instagram.com/ga.ma.ca.ar/" target="_blank" class="me-3 text-decoration-none link-light" title="Instagram Oso"><i class="fa-brands fa-instagram"></i></a>
+  <a href="https://www.tiktok.com/@gamacaar" target="_blank" class="me-3 text-decoration-none link-light" title="TikTok Mayra"><i class="fa-brands fa-tiktok"></i></a>
+  <a href="https://www.tiktok.com/@gambyto_mc" target="_blank" class="text-decoration-none link-light" title="TikTok Oso"><i class="fa-brands fa-tiktok"></i></a>
+</section>
+<section class="text-center mb-4">
+  <a href="#checkout" class="btn btn-whatsapp btn-lg w-100">Hacer pedido por WhatsApp</a>
+</section>
+<section>
+  <h2 class="mb-3">Productos</h2>
+  <div id="product-list" class="row"></div>
+</section>
+<section class="mt-4">
+  <h2 class="mb-3">Carrito</h2>
+  <ul id="cart-list" class="list-group mb-2"></ul>
+  <p><strong>Total: $<span id="total">0</span></strong></p>
+</section>
+<section id="checkout" class="mt-4">
+  <h2 class="mb-3">Datos de envío</h2>
+  <input type="text" id="address" class="form-control mb-2" placeholder="Dirección de entrega">
+  <p class="small text-muted">Zona de reparto: hasta 20 cuadras</p>
+  <button class="btn btn-whatsapp w-100" onclick="sendWhatsAppOrder()">Enviar pedido por WhatsApp</button>
+</section>
+<section class="mt-5 payment-info">
+  <h2 class="mb-3">Formas de pago</h2>
+  <p>CBU: 0000003100059864121248</p>
+  <p>Alias: theoldgoat</p>
+</section>
+<script src="js/products.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/whatsapp.js"></script>
+</body>
+</html>
